@@ -4,8 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>MyNextSet – Schede di allenamento e timer Tabata</title>
-  <meta name="description" content="MyNextSet è l'app per iPhone e iPad per organizzare le schede di allenamento, seguire le serie e usare il timer Tabata. Nessun account, dati solo sul dispositivo.">
+  <meta name="description" content="MyNextSet è l'app per iPhone, iPad e Android per creare le schede di allenamento, seguire ogni serie con il recupero guidato e usare il timer Tabata. Senza account: i dati restano sul dispositivo.">
   <meta name="theme-color" content="#0d0e10">
+  <meta property="og:title" content="MyNextSet – Schede di allenamento e timer Tabata">
+  <meta property="og:description" content="Crea le tue schede o importale da una foto, segui ogni serie e allenati con il timer Tabata. Senza account, dati sul tuo dispositivo.">
+  <meta property="og:image" content="https://dm1l1t0.github.io/mynextset_support/icona.png">
+  <link rel="alternate" hreflang="it" href="https://dm1l1t0.github.io/mynextset_support/">
+  <link rel="alternate" hreflang="en" href="https://dm1l1t0.github.io/mynextset_support/en/">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="stile.css">
@@ -14,52 +19,71 @@
 <main>
   <header>
     <img src="icona.png" alt="" width="64" height="64">
-    <div>
+    <div class="marchio">
       <strong>MyNextSet</strong>
       <span>Schede di allenamento e timer Tabata</span>
     </div>
+    <a class="lingua" href="en/" hreflang="en" lang="en">English</a>
   </header>
 
   <h1>Il tuo allenamento, una serie alla volta</h1>
-  <p>MyNextSet è l'app per iPhone e iPad per organizzare le schede di allenamento, seguire le serie con il recupero guidato e usare il timer Tabata. Non serve un account: i dati restano sul tuo dispositivo.</p>
+  <p>MyNextSet è l'app per iPhone, iPad e Android per creare le schede di allenamento, seguire ogni serie con il recupero guidato e allenarti con il timer Tabata. Non serve un account e non c'è pubblicità: i dati restano sul tuo dispositivo.</p>
+
+  <div class="links">
+    <span class="store"><small>Presto su</small><strong>App Store</strong></span>
+    <span class="store"><small>Presto su</small><strong>Google Play</strong></span>
+  </div>
+
+  <div class="galleria">
+    <img src="img/it/01-oggi.jpg" alt="Oggi: calendario della settimana e scheda in programma" width="540" height="960">
+    <img src="img/it/03-allenamento.jpg" alt="Allenamento guidato con le serie registrate" width="540" height="960" loading="lazy">
+    <img src="img/it/04-tabata.jpg" alt="Timer Tabata in corso, fase di lavoro" width="540" height="960" loading="lazy">
+    <img src="img/it/06-statistiche.jpg" alt="Statistiche: resoconto della settimana" width="540" height="960" loading="lazy">
+  </div>
+
+  <div class="card">
+    <h2>Cosa puoi fare</h2>
+    <ul>
+      <li><strong>Oggi</strong>: la scheda in programma, il calendario della settimana e gli allenamenti svolti.</li>
+      <li><strong>Schede e programmi</strong>: riscaldamento, allenamento e stretching; serie normali, superset, jumpset, dropset, cluster e serie composte; programmi con le date e le schede associate.</li>
+      <li><strong>Allenamento guidato</strong>: registra ripetizioni, carichi e tempi di ogni serie, con il recupero che parte da solo.</li>
+      <li><strong>Importa con l'AI</strong>: trasforma la foto o il PDF della tua scheda in una scheda di MyNextSet, con anteprima prima del salvataggio.</li>
+      <li><strong>Timer Tabata</strong>: lavoro, riposo, giri e serie, circuiti con più Tabata, segnale prima del cambio di fase e timer salvati.</li>
+      <li><strong>Statistiche</strong>: resoconto per periodo, record e progressi per esercizio.</li>
+      <li><strong>Libreria</strong>: esercizi pronti per calisthenics e palestra, e i parametri che vuoi registrare.</li>
+      <li><strong>File JSON</strong>: esporta e condividi schede, libreria e allenamenti svolti.</li>
+      <li><strong>Temi e suoni</strong>: verde lime, blu o rosa fluo, e diversi toni di allarme.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Importare una scheda da una foto</h2>
+    <ol>
+      <li>In MyNextSet apri <strong>Schede → Importa con l'AI</strong> e copia il prompt.</li>
+      <li>Incollalo nella chat AI che preferisci, insieme alla foto o al PDF della scheda.</li>
+      <li>Incolla la risposta in MyNextSet, controlla l'anteprima e salva.</li>
+    </ol>
+    <p class="muted">MyNextSet non si collega a nessun servizio AI: sei tu a scegliere la chat e cosa condividere.</p>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p>MyNextSet non raccoglie dati personali, non usa pubblicità né strumenti di tracciamento e non richiede registrazione. Tutto quello che inserisci resta sul tuo dispositivo.</p>
+    <p><a href="privacy.html">Leggi l'informativa completa</a></p>
+  </div>
+
+  <div class="card">
+    <h2>Lingue</h2>
+    <p>L'app è in italiano e in inglese e segue la lingua del telefono.</p>
+  </div>
 
   <div class="links">
     <a class="button" href="supporto.html">Assistenza</a>
     <a href="privacy.html">Informativa sulla privacy</a>
   </div>
 
-  <div class="card">
-    <h2>Cosa puoi fare</h2>
-    <ul>
-      <li><strong>Oggi</strong>: l'allenamento in corso, il calendario e lo storico.</li>
-      <li><strong>Schede e programmi</strong>: crea le schede, raggruppale in programmi con le date e assegnale ai giorni del calendario.</li>
-      <li><strong>Importa con l'AI</strong>: trasforma la foto o il PDF della tua scheda in una scheda di MyNextSet, con anteprima prima del salvataggio.</li>
-      <li><strong>Timer Tabata</strong>: lavoro, riposo, giri e serie, circuiti con più Tabata e timer salvati.</li>
-      <li><strong>Statistiche</strong>: serie registrate e record per esercizio.</li>
-      <li><strong>Libreria</strong>: esercizi con i parametri che vuoi registrare.</li>
-      <li><strong>File JSON</strong>: esporta e condividi schede, libreria e allenamenti svolti.</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>Privacy</h2>
-    <p>MyNextSet non raccoglie dati personali, non usa pubblicità né strumenti di tracciamento e non richiede registrazione. Tutto quello che inserisci resta sul dispositivo.</p>
-    <p><a href="privacy.html">Leggi l'informativa completa</a></p>
-  </div>
-
-  <hr>
-
-  <section lang="en">
-    <h2>MyNextSet in English</h2>
-    <p>MyNextSet is a workout planner and Tabata interval timer for iPhone and iPad. Plan your workouts, follow every set with guided rest and run custom Tabata circuits. No account required: your data stays on your device. The app is currently available in Italian.</p>
-    <div class="links">
-      <a href="supporto.html#en">Support</a>
-      <a href="privacy.html#en">Privacy Policy</a>
-    </div>
-  </section>
-
   <footer>
-    <p>© 2026 MyNextSet · <a href="mailto:jtengineeringsupport@gmail.com">jtengineeringsupport@gmail.com</a></p>
+    <p>© 2026 MyNextSet · <a href="supporto.html">Assistenza</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:jtengineeringsupport@gmail.com">jtengineeringsupport@gmail.com</a></p>
   </footer>
 </main>
 </body>
